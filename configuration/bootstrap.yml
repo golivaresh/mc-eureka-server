@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mc-eureka-server
+  profiles:
+    active: dev
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.cloud.netflix: INFO
+#  file: /tmp/mc-eureka-server.log
